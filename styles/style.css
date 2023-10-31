@@ -1,0 +1,10 @@
+body{
+
+    background: #0600aa;
+    background-image: url("zenbg-1.png"), url("zenbg-2.png");
+    background-repeat: repeat-x, repeat;
+}
+
+#name{
+    color: whitesmoke;
+}
