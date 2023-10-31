@@ -10,6 +10,7 @@ $(function () {
   
       $("#email").val(userJSON.email);
     });
+    
   
     $("input[type=radio]").on("change", function () {
   
@@ -56,7 +57,7 @@ $(function () {
   
   }
 
-
+  
   // Refreshes Page to Restart the Selections
   function refreshPage(){
     $("#row").html("");
